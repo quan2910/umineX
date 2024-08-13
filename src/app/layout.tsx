@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Bai_Jamjuree } from "next/font/google";
 import "./variable.css";
+import { cn } from "@/lib/utils";
 
 const baiJamjuree = Bai_Jamjuree({
   subsets: ["latin"],
@@ -20,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={baiJamjuree.className}>{children}</body>
+      <body className={cn(baiJamjuree.className, "bg-bg")}>{children}</body>
     </html>
   );
 }

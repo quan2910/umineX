@@ -7,7 +7,7 @@ import { LanguageData, MoneyData } from "../HeaderSelect/data";
 
 const HeaderTop = () => {
   return (
-    <div className="px-[255px] py-[15px] flex justify-between">
+    <div className="max-w-[1410px] mx-auto px-4 2xl:px-0 py-[15px] flex justify-between">
       <p className="text-13 text-secondary-1">
         You are a student and students get 20% discount.{" "}
         <Link className="text-secondary-3 font-semibold underline" href="#">

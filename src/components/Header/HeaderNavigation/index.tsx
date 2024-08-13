@@ -14,7 +14,7 @@ import sale from "@/Images/Sale.svg";
 
 const HeaderNavigation = () => {
   return (
-    <div className="px-[255px] py-[15px] flex items-center justify-between">
+    <div className="max-w-[1410px] mx-auto px-4 2xl:px-0 py-[15px] flex items-center justify-between">
       <div className="flex gap-[30px] items-center">
         <HeaderSelect triggerClass="text-14" data={HomeData} />
         <HeaderSelect triggerClass="text-14" data={ShopData} />

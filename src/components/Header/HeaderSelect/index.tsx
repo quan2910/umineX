@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/select";
 import { cn } from "@/lib/utils";
 import React from "react";
-interface HeaderSelectProps {
+export interface HeaderSelectProps {
   id: number;
   value: string;
   title: string;

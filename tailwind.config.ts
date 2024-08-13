@@ -28,6 +28,7 @@ const config: Config = {
         red: "#DC323C",
         green: "#008A00",
         line: "#E5E8EC",
+        bg: "#F1F5F6",
       },
     },
   },
