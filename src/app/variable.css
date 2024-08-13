@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root,
+  body {
+    box-sizing: border-box;
+    @apply h-full w-full text-secondary-3;
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply text-14 overflow-x-hidden;
+  }
+}
+@layer components {
+  .text-13 {
+    @apply text-[13px] font-medium leading-[16.25px];
+  }
+  .text-10 {
+    @apply text-[10px] font-semibold leading-[12.5px];
+  }
+  .text-14 {
+    @apply text-[14px] font-semibold leading-[17.5px];
+  }
+  .text-11 {
+    @apply text-[11px] font-normal leading-[13.75px];
+  }
+  .text-12 {
+    @apply text-[12px] font-bold leading-[15px];
+  }
+  .text-46 {
+    @apply text-[46px] font-semibold leading-[50px];
+  }
+  .text-18 {
+    @apply text-[18px] font-semibold leading-[23px];
+  }
+  .text-30 {
+    @apply text-[30px] font-medium leading-[37.5px];
+  }
+}
