@@ -1,6 +1,5 @@
 import Header from "@/components/Header";
 import Banner from "@/components/Landing/Banner";
-import Image from "next/image";
 
 export default function Home() {
   return (

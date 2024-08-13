@@ -16,6 +16,9 @@
   .text-13 {
     @apply text-[13px] font-medium leading-[16.25px];
   }
+  .text-12 {
+    @apply text-[12px] font-bold leading-normal;
+  }
   .text-10 {
     @apply text-[10px] font-semibold leading-[12.5px];
   }
