@@ -19,6 +19,9 @@
   .text-12 {
     @apply text-[12px] font-bold leading-normal;
   }
+  .text-16 {
+    @apply text-[16px] font-bold leading-normal;
+  }
   .text-10 {
     @apply text-[10px] font-semibold leading-[12.5px];
   }
@@ -39,5 +42,9 @@
   }
   .text-30 {
     @apply text-[30px] font-medium leading-[37.5px];
+  }
+  ::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
   }
 }

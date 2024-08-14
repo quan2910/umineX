@@ -1,4 +1,4 @@
-import banner from "@/bgImg/banner.png";
+import banner from "@/Images/BgImg/banner.png";
 
 export const BannerData = [
   { id: 1, img: banner, title: "" },

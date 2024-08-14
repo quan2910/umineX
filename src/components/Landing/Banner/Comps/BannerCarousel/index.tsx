@@ -31,7 +31,7 @@ const BannerCarousel = ({ data }: { data: BannerCarouselProps[] }) => {
     >
       <CarouselContent className="h-fit min-h-[170px] lg:h-[409px] rounded-[5px]">
         {data.map((item) => (
-          <CarouselItem>
+          <CarouselItem key={item.id}>
             <div className="w-full relative h-full rounded-[5px]">
               <Image
                 alt="banner"
